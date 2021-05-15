@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=malay-satapathy&label=My%20Profile%20views&color=blueviolet&style=plastic" alt="malay-satapathy" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=malay-satapathy" alt="malay-satapathy" /></a> </p>
-
 - 📫 How to reach me **satapathymalay.95@gmail.com**
 
 ### Blogs posts
