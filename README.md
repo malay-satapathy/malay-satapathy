@@ -12,7 +12,7 @@
 
 - 🔭 I’m currently working as Team Lead at [HighRadius Technologies](https://www.highradius.com/)
 
-- 🌱 I’m currently learning **Python for ML & AI**
+- 🌱 I’m currently learning **Three.js with React**
 
 - 👯 I’m looking to collaborate on **Open Source Projects**
 
