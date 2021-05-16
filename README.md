@@ -1,8 +1,9 @@
 <h1 align="center">Hi 👋, I'm Malay Satapathy</h1>
 
-<img src="https://i.pinimg.com/originals/7b/4d/13/7b4d132727ca76f0b433b72769c67c06.jpg" alt="Welcome to my Github Page">
+<p align="center">
+<img align="center" src="https://i.pinimg.com/originals/7b/4d/13/7b4d132727ca76f0b433b72769c67c06.jpg" alt="Welcome to my Github Page">
+</p>
 
-</br>
 </br>
 
 <h3 align="center">One man’s constant is another man’s variable</h3>
@@ -29,7 +30,8 @@
 
 </br>
 
-<h3 align="left">Connect with me on</h3>
+## Connect with me online 🌐
+
 <p align="left">
 
 <a href="https://dev.to/malaysatapathy" target="blank">
@@ -52,7 +54,8 @@
 
 </br>
 
-<h3 align="left">Languages and Tools I have worked on</h3>
+## Languages and Tools I know about 🛠
+
 <p align="left"> 
 
 <a href="https://developer.android.com" target="_blank"> 
