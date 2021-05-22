@@ -179,11 +179,11 @@
 
 </br>
 
-<p>
+<!-- <p>
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=malay-satapathy&" alt="malay-satapathy" />
 </p>
 
-</br>
+</br> -->
 
 <p align="left"> 
 <img src="https://komarev.com/ghpvc/?username=malay-satapathy&label=My%20Profile%20views&color=blueviolet&style=plastic" alt="malay-satapathy" /> 
