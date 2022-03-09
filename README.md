@@ -10,7 +10,7 @@
 
 </br>
 
-- 🔭 I’m currently working as Team Lead at [HighRadius Technologies](https://www.highradius.com/)
+- 🔭 I’m currently working as Advertising Solutions Architect at [Google India](https://forindia.withgoogle.com/intl/en/)
 
 - 🌱 I’m currently learning **Three.js with React**
 
