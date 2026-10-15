@@ -9,95 +9,99 @@
 <h3 align="center">One man’s constant is another man’s variable</h3>
 
 <p align="center">
-  <a href="https://about.google/"><img src="https://img.shields.io/badge/Google-Product_Deployed_Engineer-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google" /></a>
-  <a href="https://github.com/malay-satapathy/metacog"><img src="https://img.shields.io/badge/Focus-System--2_Agents_%26_Applied_AI-8B5CF6?style=for-the-badge" alt="System-2 Agents" /></a>
-  <a href="https://github.com/malay-satapathy?tab=repositories"><img src="https://img.shields.io/badge/Craft-Zero--Latency_Web_%26_3D-10B981?style=for-the-badge" alt="Zero-Latency Web" /></a>
+  <a href="https://about.google/"><img src="https://img.shields.io/badge/Google-Product_Deployed_Engineer-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google — Product Deployed Engineer" /></a>
+  <a href="https://github.com/malay-satapathy/metacog"><img src="https://img.shields.io/badge/Agents-System--2_AI-8B5CF6?style=for-the-badge" alt="Agents & System-2 AI" /></a>
+  <a href="https://github.com/malay-satapathy"><img src="https://img.shields.io/badge/Focus-Product_%E2%80%A2_Growth_%E2%80%A2_Strategy-10B981?style=for-the-badge" alt="Product, Growth & Strategy" /></a>
 </p>
 
-- 🔭 **Product Deployed Engineer at [Google](https://about.google/)** — shipping at the intersection of applied AI, product strategy, and production systems.
-- 🧠 Obsessed with **why frontier models break on step 18 of a tool chain** (and building lightweight cognitive scaffolding to stop them from thrashing).
+- 🔭 **Product Deployed Engineer at [Google](https://about.google/)** — working across applied AI, product strategy, and production engineering.
+- 🧠 Obsessed with **why frontier models break on step 18 of a tool chain**—and building lightweight cognitive scaffolding to stop them from thrashing.
 - ⚡ Defaulting to **`<1ms` client-side execution**, **on-device models (`window.ai`)**, and **serverless WebRTC P2P** whenever a backend isn't needed.
-- 💬 Ask me about **Agentic Architectures, System Design, Product Strategy, Travel, Food** — or send your best **memes** 🎃.
-
----
-
-### 📦 Selected Builds
-
-| Project | The Story & Architecture | Live / Repo |
-| :--- | :--- | :--- |
-| **🧠 [metacog](https://github.com/malay-satapathy/metacog)** | Coding agents don't fail from lack of syntax knowledge—they fail by tweaking the same broken fix 5× in a row. A 100-line **System-2 execution protocol (`SKILL.md`)** with `[KNOWN]` vs `[ASSUMED]` calibration & a **2-strike circuit breaker**. | [![Repo](https://img.shields.io/badge/SKILL.md-Repo-8B5CF6?style=flat-square&logo=github)](https://github.com/malay-satapathy/metacog) |
-| **🔥 [circle-of-shaq](https://github.com/malay-satapathy/circle-of-shaq)** | Opened `spyfall.co`'s network tab on game night and found `is_spy: true` leaking in plaintext JSON. Rebuilt with a **zero-leak role engine**, anti-screen-tell UI, **serverless WebRTC P2P**, and a *Desi Adda & Shaadi* deck (3–24+ players). | [![Play](https://img.shields.io/badge/Play_Live-WebRTC_P2P-EF4444?style=flat-square)](https://malay-satapathy.github.io/circle-of-shaq/) |
-| **✨ [delim](https://github.com/malay-satapathy/delim)** | Replaced ad-heavy server tools with a **`<1ms` 100% in-browser data studio**: auto-predicts transforms on paste, runs `pandas` & BigQuery/Postgres/Oracle SQL chunking, and bridges to Chrome's on-device **Gemini Nano (`window.ai`)**. | [![Launch](https://img.shields.io/badge/Launch-Studio-10B981?style=flat-square)](https://malay-satapathy.github.io/delim/) |
-| **🕹️ [play-deck](https://github.com/malay-satapathy/play-deck)** | **22 arcade & indie games** (*Tetra-Drop*, *Maze-Muncher*, *Merge the Stack*, *Quantum Dice*) engineered as zero-collision isolated plugins sharing a single cross-game XP state machine. | [![Arcade](https://img.shields.io/badge/Play-22_Games-38BDF8?style=flat-square)](https://malay-satapathy.github.io/play-deck/) |
-| **🌞 [threejs_react](https://github.com/malay-satapathy/threejs_react)** | Interactive 3D WebGL & physics sandbox built with `Three.js`, `@react-three/fiber`, `drei`, and `cannon.js`. | [![Demo](https://img.shields.io/badge/3D_Demo-WebGL-F59E0B?style=flat-square)](https://malay-satapathy.github.io/threejs_react/) |
+- 💬 Ask me about **Agentic Systems, System Design, Product Strategy, Travel, Food** — or send your best **memes** 🎃.
 
 ---
 
 ### 🧩 How I Wire Autonomous Agents (`System-1` → `System-2`)
 
-```mermaid
-flowchart LR
-    A["Incoming Task"] --> B{"1. Epistemic Audit\n[KNOWN] vs [ASSUMED]"}
-    B -->|Assumptions Found| C["Parallel Tool Probes"]
-    C --> D["2. Competing Hypotheses\n& Fast Falsification"]
-    B -->|Verified Facts| D
-    D --> E["3. Adversarial Red-Team\nRace Conditions & Blast Radius"]
-    E --> F{"4. Closed-Loop\nTest & Verify"}
-    F -->|2 Consecutive Fails| G["5. 2-Strike Circuit Breaker\nInvalidate Root Premise"]
-    G --> B
-    F -->|Verified Pass| H["Production Ready"]
-```
+<p align="center">
+  <a href="https://github.com/malay-satapathy/metacog">
+    <img src="./assets/agent-loop.svg" width="100%" alt="System-2 Agent Execution Loop — Epistemic Audit, Falsification, Red-Team Design, Closed-Loop Verification" />
+  </a>
+</p>
+
+---
+
+### 📦 Selected Builds
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong>🧠 <a href="https://github.com/malay-satapathy/metacog">metacog</a></strong> &nbsp;<code>SKILL.md · MCP · System-2</code>
+      <br/><br/>
+      <sub>Coding agents rarely fail from lack of syntax knowledge—they fail by tweaking the same broken line 5× in a row. A 100-line execution protocol with <code>[KNOWN]</code> vs <code>[ASSUMED]</code> calibration and a <strong>2-strike circuit breaker</strong>.</sub>
+      <br/><br/>
+      <a href="https://github.com/malay-satapathy/metacog"><img src="https://img.shields.io/badge/GitHub-Repository-8B5CF6?style=flat-square&logo=github&logoColor=white" height="22" alt="metacog repo" /></a>
+      <a href="https://github.com/malay-satapathy/metacog#-quick-install-10-seconds"><img src="https://img.shields.io/badge/Works_With-Claude_%7C_Cursor_%7C_Antigravity-334155?style=flat-square" height="22" alt="Works With" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <strong>🔥 <a href="https://github.com/malay-satapathy/circle-of-shaq">circle-of-shaq</a></strong> &nbsp;<code>WebRTC P2P · Zero-Leak</code>
+      <br/><br/>
+      <sub>Opened <code>spyfall.co</code>'s network tab on game night and found <code>is_spy: true</code> leaking in plaintext JSON. Rebuilt with a <strong>zero-leak role engine</strong>, unified anti-screen-tell UI, serverless P2P sync, and a <em>Desi Adda &amp; Shaadi</em> deck (3–24+ players).</sub>
+      <br/><br/>
+      <a href="https://malay-satapathy.github.io/circle-of-shaq/"><img src="https://img.shields.io/badge/Play_Live-Web_App_↗-EF4444?style=flat-square" height="22" alt="Play Circle of Shaq" /></a>
+      <a href="https://github.com/malay-satapathy/circle-of-shaq"><img src="https://img.shields.io/badge/GitHub-Source-334155?style=flat-square&logo=github&logoColor=white" height="22" alt="Circle of Shaq repo" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>✨ <a href="https://github.com/malay-satapathy/delim">delim</a></strong> &nbsp;<code>&lt;1ms · Gemini Nano · SQL</code>
+      <br/><br/>
+      <sub>Replaced ad-heavy server tools with a <strong>100% client-side data studio</strong>: auto-predicts transforms in <code>&lt;1ms</code>, runs <code>pandas</code> &amp; BigQuery/Postgres/Oracle SQL chunking, and bridges to Chrome's on-device <strong>Gemini Nano (<code>window.ai</code>)</strong>.</sub>
+      <br/><br/>
+      <a href="https://malay-satapathy.github.io/delim/"><img src="https://img.shields.io/badge/Launch_Studio-Live_App_↗-10B981?style=flat-square" height="22" alt="Launch delim" /></a>
+      <a href="https://github.com/malay-satapathy/delim"><img src="https://img.shields.io/badge/GitHub-Source-334155?style=flat-square&logo=github&logoColor=white" height="22" alt="delim repo" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <strong>🕹️ <a href="https://github.com/malay-satapathy/play-deck">play-deck</a></strong> &nbsp;<code>22 Games · Plugin Core</code>
+      <br/><br/>
+      <sub><strong>22 classic &amp; indie arcade games</strong> (<em>Tetra-Drop</em>, <em>Maze-Muncher</em>, <em>Merge the Stack</em>, <em>Quantum Dice</em>) architected as isolated zero-collision modules sharing a single cross-game XP progression store.</sub>
+      <br/><br/>
+      <a href="https://malay-satapathy.github.io/play-deck/"><img src="https://img.shields.io/badge/Play_Arcade-22_Games_↗-0EA5E9?style=flat-square" height="22" alt="Launch Play-Deck" /></a>
+      <a href="https://github.com/malay-satapathy/play-deck"><img src="https://img.shields.io/badge/GitHub-Source-334155?style=flat-square&logo=github&logoColor=white" height="22" alt="Play-Deck repo" /></a>
+    </td>
+  </tr>
+</table>
+
+<sub>
+  <strong>More playgrounds:</strong> &nbsp;
+  🌞 <a href="https://malay-satapathy.github.io/threejs_react/"><strong>threejs_react</strong> (Live 3D WebGL &amp; Physics Demo ↗)</a> &nbsp;·&nbsp;
+  🌦️ <a href="https://malay-satapathy.github.io/clime_weather_app/"><strong>clime_weather_app</strong> (Live React Weather App ↗)</a> &nbsp;·&nbsp;
+  🔐 <a href="https://github.com/malay-satapathy/PassKeeper"><strong>PassKeeper</strong> (Native Android Vault)</a>
+</sub>
 
 ---
 
 ### 🛠️ Stack & Ecosystem
 
-**AI, Agents & Cloud Data**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=gcp,aws,kubernetes,python,ts,js,react,nextjs,threejs,redux,vite,tailwind,java,spring,nodejs,express,androidstudio,postgres,mongodb,mysql,git,githubactions,jest,selenium,jenkins,webpack,figma&perline=14" alt="Tech Stack Icons" />
+</p>
+
 <p align="left">
   <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
-  <img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery" />
-  <img src="https://img.shields.io/badge/Gemini_%26_Vertex_AI-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini & Vertex AI" />
+  <img src="https://img.shields.io/badge/BigQuery-2563EB?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery" />
+  <img src="https://img.shields.io/badge/Gemini_%26_Vertex_AI-7C3AED?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini & Vertex AI" />
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/MCP_%26_SKILL.md-111827?style=for-the-badge&logo=sparkles&logoColor=38BDF8" alt="MCP & Agent Skills" />
-  <img src="https://img.shields.io/badge/On--Device_AI_(window.ai)-0F766E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="On-Device AI" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-</p>
-
-**Frontend, Interactive 3D & Client-Side Architecture**
-<p align="left">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Agent_Protocols-MCP_%26_SKILL.md-4F46E5?style=for-the-badge" alt="MCP & SKILL.md" />
+  <img src="https://img.shields.io/badge/On--Device_AI-Gemini_Nano_(window.ai)-0D9488?style=for-the-badge&logo=googlechrome&logoColor=white" alt="On-Device AI" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Three.js_%2F_WebGL-000000?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" />
-  <img src="https://img.shields.io/badge/WebRTC_P2P-333333?style=for-the-badge&logo=webrtc&logoColor=white" alt="WebRTC" />
-  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3_%2F_Sass-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-</p>
-
-**Backend, Mobile, Databases & DevOps**
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=black" alt="Android" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Jest_%2F_Vitest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />
-  <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack" />
+  <img src="https://img.shields.io/badge/React_%26_Next.js-0284C7?style=for-the-badge&logo=react&logoColor=white" alt="React & Next.js" />
+  <img src="https://img.shields.io/badge/Three.js_%26_WebGL-475569?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js & WebGL" />
+  <img src="https://img.shields.io/badge/WebRTC_P2P-059669?style=for-the-badge&logo=webrtc&logoColor=white" alt="WebRTC P2P" />
+  <img src="https://img.shields.io/badge/Python_%26_pandas-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python & pandas" />
+  <img src="https://img.shields.io/badge/Java_%26_Spring_Boot-EA580C?style=for-the-badge&logo=springboot&logoColor=white" alt="Java & Spring Boot" />
+  <img src="https://img.shields.io/badge/Node.js_%26_Express-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Kubernetes_%26_CI/CD-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
 </p>
 
 ---
@@ -106,10 +110,10 @@ flowchart LR
 
 <p align="left">
   <a href="https://linkedin.com/in/malaysatapathy" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Malay_Satapathy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-malaysatapathy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://dev.to/malaysatapathy" target="_blank">
-    <img src="https://img.shields.io/badge/DEV.to-@malaysatapathy-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="DEV.to" />
+    <img src="https://img.shields.io/badge/DEV.to-@malaysatapathy-334155?style=for-the-badge&logo=devdotto&logoColor=white" alt="DEV.to" />
   </a>
   <a href="mailto:satapathymalay.95@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-satapathymalay.95%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
